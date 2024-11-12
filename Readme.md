@@ -44,11 +44,11 @@ We utilize multiple plugins within these pipelines, such as the Jenkins Credenti
 * This can be done in multiple ways,
    To briefly explain about the different options,
 
-     - Poll SCM: Jenkins can periodically check the repository for changes and automatically build if changes are detected. This can be configured in the "Build Triggers" section of a job.   
+    - Poll SCM: Jenkins can periodically check the repository for changes and automatically build if changes are detected. This can be configured in the "Build Triggers" section of a job.   
               
-     - Build Triggers: Jenkins can be configured to use the Git plugin, which allows you to specify a Git repository and branch to build. The plugin can be configured to automatically build when changes are pushed to the repository.   
+    - Build Triggers: Jenkins can be configured to use the Git plugin, which allows you to specify a Git repository and branch to build. The plugin can be configured to automatically build when changes are pushed to the repository.   
               
-     - Webhooks: A webhook can be created in GitHub to notify Jenkins when changes are pushed to the repository. Jenkins can then automatically build the updated code. This can be set up in the "Build Triggers" section of a job and in the GitHub repository settings
+    - Webhooks: A webhook can be created in GitHub to notify Jenkins when changes are pushed to the repository. Jenkins can then automatically build the updated code. This can be set up in the "Build Triggers" section of a job and in the GitHub repository settings
 
 ### How to backup Jenkins :
 * Backing up Jenkins is a very easy process, there are multiple default and configured files and folders in Jenkins that you might want to backup.
